@@ -323,6 +323,12 @@ a:hover { text-decoration: underline; }
   filter: none;
 }
 
+.venue-full {
+  font-size: 14.5px;
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-style: italic;
+}
 
 @media (max-width: 760px) {
   .navbar { align-items: flex-start; }
