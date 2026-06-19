@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Jingchao Xie" />
+  <meta name="description" content="Jingchao Xie — self-supervised 3D vision" />
+
+  <title>Jingchao Xie</title>
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jingchao Xie" />
+  <meta property="og:description" content="Self-supervised 3D vision, visual odometry, 3D reconstruction, and autonomous driving." />
+  <meta property="og:image" content="assets/profile.jpg" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home">Jingchao Xie</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#bio">Bio</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home" class="page">
+    <section class="hero" aria-label="Profile summary">
+      <a class="portrait-wrap" href="assets/profile_photo.jpg" aria-label="Open profile photo">
+        <img class="portrait" src="assets/profile_photo.jpg" alt="Jingchao Xie profile photo" />
+      </a>
+
+      <div class="identity-card">
+        <p class="name-cn">谢靖超</p>
+        <h1>Jingchao Xie</h1>
+        <p class="role">Ph.D. Student · Self-Supervised 3D Vision</p>
+        <p class="affiliation">Visual Inference Lab, Cluster of Excellence "Reasonable AI", TU Darmstadt</p>
+
+        <div class="social-row" aria-label="Profile links">
+          <a href="mailto:jingchao.xie@visinf.tu-darmstadt.de" title="Email" aria-label="Email">
+            <span class="icon">✉</span><span>Email</span>
+          </a>
+          <a href="https://www.linkedin.com/in/jingchao-xie-16b724297" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+            <span class="icon">in</span><span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/Jchao-Xie" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+            <span class="icon">⌘</span><span>GitHub</span>
+          </a>
+          <a href="https://scholar.google.com/citations?hl=en&user=LocfgAgAAAAJ" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
+            <span class="icon">☆</span><span>Scholar</span>
+          </a>
+        </div>
+
+        <div class="tag-row" aria-label="Research keywords">
+          <span>Self-supervised learning</span>
+          <span>3D vision</span>
+          <span>Visual odometry</span>
+          <span>Autonomous driving</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="bio" class="section anchor-section">
+      <h2>Bio</h2>
+      <p>
+        I am a Ph.D. student at the cluster of excellence "Reasonable AI", TU Darmstadt, working on
+        <strong>self-supervised 3D understanding</strong>. My research goal is to enable visual agents to acquire spatial,
+        temporal, and geometric understanding from large-scale unlabeled visual data with minimal human supervision.
+      </p>
+      <p>
+        Previously, I worked with the Computer Vision Group and DeepScenario at the Technical University of Munich on
+        unsupervised monocular visual odometry, and with Bosch Research on unsupervised online mapping for autonomous driving.
+      </p>
+      <p>
+        I received my M.Sc. in Robotics, Cognition, Intelligence from the Technical University of Munich and my B.Sc. in Vehicle Engineering from Central South University in China.
+      </p>
+      <div class="bio-logo-row" aria-label="Affiliations">
+        <a href="https://www.tu-darmstadt.de/" target="_blank" rel="noopener">
+          <img src="assets/tuda_logo.png" alt="TU Darmstadt logo" />
+        </a>
+
+        <a href="https://hessian.ai/" target="_blank" rel="noopener">
+          <img src="assets/hessian-ai-logo.svg" alt="hessian.AI logo" />
+        </a>
+
+        <a href="https://www.reasonable-ai.de/" target="_blank" rel="noopener">
+          <img src="assets/RAI-Logo.png" alt="Reasonable AI logo" />
+        </a>
+
+        <a href="https://www.bosch.com/research/" target="_blank" rel="noopener">
+          <img src="assets/bosch_logo.png" alt="Bosch logo" />
+        </a>
+
+        <a href="https://www.tum.de/en/" target="_blank" rel="noopener">
+          <img src="assets/Logo_of_TUM.svg" alt="Technical University of Munich logo" />
+        </a>
+
+        <a href="https://en.csu.edu.cn/" target="_blank" rel="noopener">
+          <img src="assets/logo_CSU.jpg" alt="Central South University logo" />
+        </a>
+      </div>
+    </section>
+    
+    <section id="news" class="section anchor-section">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li><time>2026/06</time><span><strong>CoProU-VO</strong> extended journal version accepted to <strong>IJCV 2026</strong>.</span></li>
+        <li><time>2025/09</time><span><strong>CoProU-VO</strong> received the <strong>Best Paper Award</strong> at DAGM GCPR 2025.</span></li>
+        <li><time>2025/06</time><span><strong>PseudoMapTrainer</strong> accepted to <strong>ICCV 2025</strong>.</span></li>
+      </ul>
+    </section>
+
+    <section id="publications" class="section anchor-section">
+      <h2>Publications</h2>
+
+      <article class="publication-card featured">
+        <a class="publication-media" href="#" aria-label="IJCV publication thumbnail">
+          <video autoplay muted loop playsinline>
+            <source src="assets/ijcv_CoProU.mp4" type="video/mp4" />
+          </video>
+        </a>
+        <div class="publication-copy">
+          <div class="venue-badge">IJCV 2026 · to appear</div>
+          <h3>Combining Projected Uncertainty for Self-Supervised Visual Odometry: From Two-Frame to Multi-Frame</h3>
+          <p class="authors"><strong>Jingchao Xie</strong><sup>*</sup>, <a href="https://cvg.cit.tum.de/members/dhou" target="_blank" rel="noopener">Oussema Dhaouadi</a><sup>*,†</sup>, <a href="https://wrchen530.github.io/" target="_blank" rel="noopener">Weirong Chen</a>, <a href="https://cvg.cit.tum.de/members/mejo" target="_blank" rel="noopener">Johannes Meier</a>, <a href="https://zuriabauer.com/" target="_blank" rel="noopener">Zuria Bauer</a>, <a href="https://cvg.ethz.ch/team/Prof-Dr-Marc-Pollefeys" target="_blank" rel="noopener">Marc Pollefeys</a>, <a href="https://cvg.cit.tum.de/members/cremers" target="_blank" rel="noopener">Daniel Cremers</a></p>
+          <p class="summary">Journal extension of CoProU-VO, studying projected uncertainty for robust self-supervised visual odometry from two-frame to multi-frame settings.</p>
+          <p class="resources"><span class="resource-disabled">Paper link coming soon</span></p>
+        </div>
+      </article>
+
+      <article class="publication-card">
+        <a class="publication-media" href="https://jchao-xie.github.io/CoProU/" target="_blank" rel="noopener" aria-label="CoProU-VO project page">
+          <video autoplay muted loop playsinline>
+            <source src="assets/seqscene-0733_0_CoProU.mp4" type="video/mp4" />
+          </video>
+        </a>
+        <div class="publication-copy">
+          <div class="venue-badge award">GCPR 2025 · Best Paper Award</div>
+          <h3><a href="https://jchao-xie.github.io/CoProU/" target="_blank" rel="noopener">CoProU-VO: Combining Projected Uncertainty for End-to-End Unsupervised Monocular Visual Odometry</a></h3>
+          <p class="authors"><strong>Jingchao Xie</strong><sup>*</sup>, <a href="https://cvg.cit.tum.de/members/dhou" target="_blank" rel="noopener">Oussema Dhaouadi</a><sup>*,†</sup>, <a href="https://wrchen530.github.io/" target="_blank" rel="noopener">Weirong Chen</a>, <a href="https://cvg.cit.tum.de/members/mejo" target="_blank" rel="noopener">Johannes Meier</a>, <a href="https://jacqueskaiser.com/" target="_blank" rel="noopener">Jacques Kaiser</a>, <a href="https://cvg.cit.tum.de/members/cremers" target="_blank" rel="noopener">Daniel Cremers</a></p>
+          <p class="summary">An end-to-end unsupervised monocular visual odometry method that uses projected uncertainty to improve robustness under dynamic objects, occlusions, and non-Lambertian regions.</p>
+          <p class="resources">
+            <a href="https://arxiv.org/abs/2508.00568" target="_blank" rel="noopener">arXiv</a> /
+            <a href="https://jchao-xie.github.io/CoProU/" target="_blank" rel="noopener">Project Page</a> /
+            <a href="https://www.dagm.de/award-winners/gcpr-best-paper-awards/" target="_blank" rel="noopener">Award</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="publication-card">
+        <a class="publication-media" href="https://github.com/boschresearch/PseudoMapTrainer" target="_blank" rel="noopener" aria-label="PseudoMapTrainer repository">
+          <video autoplay muted loop playsinline>
+            <source src="assets/pseudomap.mp4" type="video/mp4" />
+          </video>
+        </a>
+        <div class="publication-copy">
+          <div class="venue-badge">ICCV 2025</div>
+          <h3><a href="https://github.com/boschresearch/PseudoMapTrainer" target="_blank" rel="noopener">PseudoMapTrainer: Learning Online Mapping without HD Maps</a></h3>
+          <p class="authors"><a href="https://scholar.google.com/citations?user=9m868l8AAAAJ" target="_blank" rel="noopener">Christian Löwens</a>, <a href="https://scholar.google.com/citations?user=VbjQxioAAAAJ" target="_blank" rel="noopener">Thorben Funke</a>, <strong>Jingchao Xie</strong>, <a href="https://www.inb.uni-luebeck.de/mitarbeiter/mitarbeiter/professoren/alexandru-condurache" target="_blank" rel="noopener">Alexandru Paul Condurache</a></p>
+          <p class="summary">A framework for learning online mapping without HD map supervision, developed during my research internship at Bosch Research.</p>
+          <p class="resources">
+            <a href="https://github.com/boschresearch/PseudoMapTrainer" target="_blank" rel="noopener">Code</a> /
+            <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Lowens_PseudoMapTrainer_Learning_Online_Mapping_without_HD_Maps_ICCV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a>
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="experience" class="section anchor-section compact-section">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <time>2026 — present</time>
+          <div>
+            <strong>Ph.D Student</strong><br />
+            Visual Inference Lab, Cluster of Excellence "Reasonable AI", TU Darmstadt
+          </div>
+        </div>
+        <div class="timeline-item">
+          <time>2024 — 2025</time>
+          <div>
+            <strong>Guided Research & Master’s Thesis Student</strong><br />
+            TUM Computer Vision Group & DeepScenario
+          </div>
+        </div>
+        <div class="timeline-item">
+          <time>2024 — 2025</time>
+          <div>
+            <strong>Research Intern</strong><br />
+            Bosch Research, Hildesheim
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section anchor-section compact-section">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <time>2023 — 2026</time>
+          <div>
+            <strong>M.Sc. Robotics, Cognition, Intelligence</strong><br />
+            Technical University of Munich · Grade 1.1 · Graduated with High Distinction
+          </div>
+        </div>
+        <div class="timeline-item">
+          <time>2018 — 2022</time>
+          <div>
+            <strong>B.Eng. Vehicle Engineering</strong><br />
+            Central South University · Outstanding Undergraduate
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Jingchao Xie. Built with static HTML/CSS and hosted on GitHub Pages.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

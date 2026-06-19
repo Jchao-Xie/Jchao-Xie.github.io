@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f5f7fb"/>
+  <g opacity="0.95">
+    <path d="M90 170 L220 120 L350 180 L480 115 L710 180" fill="none" stroke="#1f5fa8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M110 340 L250 280 L390 330 L550 245 L720 310" fill="none" stroke="#b45f06" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M160 85 L160 410 M305 85 L305 410 M450 85 L450 410 M595 85 L595 410" stroke="#d8dde8" stroke-width="4"/>
+    <path d="M65 140 L735 140 M65 245 L735 245 M65 350 L735 350" stroke="#d8dde8" stroke-width="4"/>
+  </g>
+  <rect x="68" y="390" width="664" height="58" rx="16" fill="#fff" opacity="0.86"/>
+  <text x="92" y="427" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#222">PseudoMapTrainer</text>
+  <text x="378" y="427" font-family="Arial, sans-serif" font-size="20" fill="#666">Online mapping without HD maps</text>
+</svg>
